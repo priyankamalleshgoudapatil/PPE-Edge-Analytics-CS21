@@ -1,0 +1,304 @@
+id,timestamp,frame_idx,status,missing_items,confidence,snapshot_path,prescriptive_action,sync_status
+1,2026-09-29 14:01:00.100,35,WARNING,vest,0.92,snapshots/sample_warning.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+2,2026-09-29 14:01:05.200,42,WARNING,vest,0.89,snapshots/sample_warning_2.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+3,2026-09-29 14:01:10.500,55,CRITICAL,"helmet, vest",0.935,snapshots/sample_critical.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+4,2026-09-29 18:56:36.014,3,CRITICAL,"helmet, vest",0.905,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-36_014_frame0003.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+5,2026-09-29 18:56:36.081,4,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-36_081_frame0004.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+6,2026-09-29 18:56:36.139,5,CRITICAL,"helmet, vest",0.905,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-36_139_frame0005.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+7,2026-09-29 18:56:36.193,6,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-36_193_frame0006.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+8,2026-09-29 18:56:36.251,7,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+9,2026-09-29 18:56:36.301,8,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+10,2026-09-29 18:56:36.353,9,CRITICAL,"helmet, vest",0.903,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-36_353_frame0009.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+11,2026-09-29 18:56:36.410,10,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+12,2026-09-29 18:56:36.460,11,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+13,2026-09-29 18:56:36.506,12,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-36_506_frame0012.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+14,2026-09-29 18:56:36.555,13,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+15,2026-09-29 18:56:36.595,14,CRITICAL,"helmet, vest",0.903,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-36_595_frame0014.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+16,2026-09-29 18:56:36.629,15,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+17,2026-09-29 18:56:36.668,16,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+18,2026-09-29 18:56:36.714,17,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+19,2026-09-29 18:56:36.747,18,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+20,2026-09-29 18:56:36.779,19,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+21,2026-09-29 18:56:36.814,20,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+22,2026-09-29 18:56:36.848,21,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+23,2026-09-29 18:56:36.881,22,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+24,2026-09-29 18:56:36.916,23,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+25,2026-09-29 18:56:36.956,24,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+26,2026-09-29 18:56:36.994,25,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+27,2026-09-29 18:56:37.032,26,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+28,2026-09-29 18:56:37.070,27,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+29,2026-09-29 18:56:37.109,28,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+30,2026-09-29 18:56:37.145,29,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+31,2026-09-29 18:56:37.181,30,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+32,2026-09-29 18:56:37.216,31,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+33,2026-09-29 18:56:37.256,32,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+34,2026-09-29 18:56:37.296,33,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+35,2026-09-29 18:56:37.336,34,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+36,2026-09-29 18:56:37.375,35,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+37,2026-09-29 18:56:37.412,36,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+38,2026-09-29 18:56:37.451,37,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+39,2026-09-29 18:56:37.491,38,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+40,2026-09-29 18:56:37.532,39,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+41,2026-09-29 18:56:37.570,40,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+42,2026-09-29 18:56:37.605,41,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+43,2026-09-29 18:56:37.642,42,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+44,2026-09-29 18:56:37.688,43,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+45,2026-09-29 18:56:37.744,44,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+46,2026-09-29 18:56:37.801,45,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+47,2026-09-29 18:56:37.859,46,CRITICAL,"helmet, vest",0.901,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+48,2026-09-29 18:56:37.894,47,CRITICAL,"helmet, vest",0.901,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+49,2026-09-29 18:56:37.931,48,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+50,2026-09-29 18:56:37.970,49,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+51,2026-09-29 18:56:38.009,50,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+52,2026-09-29 18:56:38.044,51,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+53,2026-09-29 18:56:38.081,52,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+54,2026-09-29 18:56:38.118,53,CRITICAL,"helmet, vest",0.901,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-38_118_frame0053.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+55,2026-09-29 18:56:38.159,54,CRITICAL,"helmet, vest",0.901,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+56,2026-09-29 18:56:38.202,55,CRITICAL,"helmet, vest",0.901,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+57,2026-09-29 18:56:38.240,56,CRITICAL,"helmet, vest",0.901,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+58,2026-09-29 18:56:38.276,57,CRITICAL,"helmet, vest",0.901,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+59,2026-09-29 18:56:38.311,58,CRITICAL,"helmet, vest",0.901,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+60,2026-09-29 18:56:38.351,59,CRITICAL,"helmet, vest",0.901,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+61,2026-09-29 18:56:38.571,3,CRITICAL,"helmet, vest",0.905,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-38_571_frame0003.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+62,2026-09-29 18:56:38.629,4,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-38_629_frame0004.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+63,2026-09-29 18:56:38.691,5,CRITICAL,"helmet, vest",0.905,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-38_691_frame0005.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+64,2026-09-29 18:56:38.750,6,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-38_750_frame0006.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+65,2026-09-29 18:56:38.808,7,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+66,2026-09-29 18:56:38.852,8,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+67,2026-09-29 18:56:38.897,9,CRITICAL,"helmet, vest",0.903,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-38_897_frame0009.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+68,2026-09-29 18:56:38.941,10,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+69,2026-09-29 18:56:38.979,11,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+70,2026-09-29 18:56:39.020,12,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-39_020_frame0012.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+71,2026-09-29 18:56:39.069,13,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+72,2026-09-29 18:56:39.113,14,CRITICAL,"helmet, vest",0.903,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-39_113_frame0014.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+73,2026-09-29 18:56:39.157,15,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+74,2026-09-29 18:56:39.188,16,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+75,2026-09-29 18:56:39.225,17,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+76,2026-09-29 18:56:39.259,18,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+77,2026-09-29 18:56:39.295,19,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+78,2026-09-29 18:56:39.332,20,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+79,2026-09-29 18:56:39.380,21,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+80,2026-09-29 18:56:39.421,22,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+81,2026-09-29 18:56:39.458,23,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+82,2026-09-29 18:56:39.500,24,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+83,2026-09-29 18:56:39.538,25,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+84,2026-09-29 18:56:39.575,26,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+85,2026-09-29 18:56:39.610,27,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+86,2026-09-29 18:56:39.650,28,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+87,2026-09-29 18:56:39.681,29,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+88,2026-09-29 18:56:39.716,30,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+89,2026-09-29 18:56:39.772,31,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+90,2026-09-29 18:56:39.846,32,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+91,2026-09-29 18:56:39.908,33,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+92,2026-09-29 18:56:39.969,34,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+93,2026-09-29 18:56:40.024,35,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+94,2026-09-29 18:56:40.077,36,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+95,2026-09-29 18:56:40.132,37,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+96,2026-09-29 18:56:40.185,38,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+97,2026-09-29 18:56:40.249,39,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+98,2026-09-29 18:56:40.299,40,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+99,2026-09-29 18:56:40.340,41,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+100,2026-09-29 18:56:40.382,42,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+101,2026-09-29 18:56:40.418,43,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+102,2026-09-29 18:56:40.457,44,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+103,2026-09-29 18:56:40.499,45,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+104,2026-09-29 18:56:40.540,46,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+105,2026-09-29 18:56:40.579,47,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+106,2026-09-29 18:56:40.619,48,CRITICAL,"helmet, vest",0.9,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-40_619_frame0048.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+107,2026-09-29 18:56:40.662,49,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+108,2026-09-29 18:56:40.697,50,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+109,2026-09-29 18:56:40.731,51,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+110,2026-09-29 18:56:40.768,52,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+111,2026-09-29 18:56:40.801,53,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+112,2026-09-29 18:56:40.853,54,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+113,2026-09-29 18:56:40.911,55,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+114,2026-09-29 18:56:40.958,56,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+115,2026-09-29 18:56:41.007,57,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+116,2026-09-29 18:56:41.065,58,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+117,2026-09-29 18:56:41.114,59,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+118,2026-09-29 18:56:41.254,3,CRITICAL,"helmet, vest",0.905,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-41_254_frame0003.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+119,2026-09-29 18:56:41.289,4,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-41_289_frame0004.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+120,2026-09-29 18:56:41.324,5,CRITICAL,"helmet, vest",0.905,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-41_324_frame0005.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+121,2026-09-29 18:56:41.368,6,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-41_368_frame0006.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+122,2026-09-29 18:56:41.419,7,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+123,2026-09-29 18:56:41.467,8,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+124,2026-09-29 18:56:41.498,9,CRITICAL,"helmet, vest",0.903,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-41_498_frame0009.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+125,2026-09-29 18:56:41.530,10,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+126,2026-09-29 18:56:41.562,11,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+127,2026-09-29 18:56:41.602,12,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-41_602_frame0012.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+128,2026-09-29 18:56:41.640,13,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+129,2026-09-29 18:56:41.671,14,CRITICAL,"helmet, vest",0.903,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-41_671_frame0014.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+130,2026-09-29 18:56:41.707,15,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+131,2026-09-29 18:56:41.746,16,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+132,2026-09-29 18:56:41.780,17,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+133,2026-09-29 18:56:41.820,18,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+134,2026-09-29 18:56:41.852,19,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+135,2026-09-29 18:56:41.886,20,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+136,2026-09-29 18:56:41.921,21,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+137,2026-09-29 18:56:41.952,22,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+138,2026-09-29 18:56:41.999,23,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+139,2026-09-29 18:56:42.045,24,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+140,2026-09-29 18:56:42.092,25,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+141,2026-09-29 18:56:42.136,26,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+142,2026-09-29 18:56:42.169,27,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+143,2026-09-29 18:56:42.199,28,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+144,2026-09-29 18:56:42.230,29,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+145,2026-09-29 18:56:42.265,30,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+146,2026-09-29 18:56:42.299,31,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+147,2026-09-29 18:56:42.333,32,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+148,2026-09-29 18:56:42.367,33,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+149,2026-09-29 18:56:42.411,34,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+150,2026-09-29 18:56:42.466,35,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+151,2026-09-29 18:56:42.517,36,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+152,2026-09-29 18:56:42.559,37,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+153,2026-09-29 18:56:42.599,38,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+154,2026-09-29 18:56:42.646,39,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+155,2026-09-29 18:56:42.683,40,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+156,2026-09-29 18:56:42.724,41,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+157,2026-09-29 18:56:42.761,42,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+158,2026-09-29 18:56:42.795,43,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+159,2026-09-29 18:56:42.831,44,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+160,2026-09-29 18:56:42.872,45,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+161,2026-09-29 18:56:42.907,46,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+162,2026-09-29 18:56:42.948,47,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+163,2026-09-29 18:56:42.988,48,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+164,2026-09-29 18:56:43.030,49,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+165,2026-09-29 18:56:43.069,50,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+166,2026-09-29 18:56:43.112,51,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+167,2026-09-29 18:56:43.153,52,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+168,2026-09-29 18:56:43.187,53,CRITICAL,"helmet, vest",0.9,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-43_187_frame0053.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+169,2026-09-29 18:56:43.226,54,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+170,2026-09-29 18:56:43.262,55,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+171,2026-09-29 18:56:43.293,56,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+172,2026-09-29 18:56:43.336,57,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+173,2026-09-29 18:56:43.381,58,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+174,2026-09-29 18:56:43.427,59,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+175,2026-09-29 18:56:43.619,3,CRITICAL,"helmet, vest",0.905,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-43_619_frame0003.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+176,2026-09-29 18:56:43.662,4,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-43_662_frame0004.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+177,2026-09-29 18:56:43.702,5,CRITICAL,"helmet, vest",0.905,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-43_702_frame0005.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+178,2026-09-29 18:56:43.737,6,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-43_737_frame0006.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+179,2026-09-29 18:56:43.772,7,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+180,2026-09-29 18:56:43.809,8,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+181,2026-09-29 18:56:43.847,9,CRITICAL,"helmet, vest",0.903,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-43_847_frame0009.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+182,2026-09-29 18:56:43.883,10,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+183,2026-09-29 18:56:43.921,11,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+184,2026-09-29 18:56:43.960,12,WARNING,helmet,0.91,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_18-56-43_960_frame0012.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+185,2026-09-29 18:56:43.996,13,WARNING,helmet,0.91,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+186,2026-09-29 18:56:44.032,14,CRITICAL,"helmet, vest",0.903,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-44_032_frame0014.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+187,2026-09-29 18:56:44.081,15,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+188,2026-09-29 18:56:44.113,16,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+189,2026-09-29 18:56:44.149,17,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+190,2026-09-29 18:56:44.180,18,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+191,2026-09-29 18:56:44.213,19,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+192,2026-09-29 18:56:44.254,20,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+193,2026-09-29 18:56:44.309,21,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+194,2026-09-29 18:56:44.344,22,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+195,2026-09-29 18:56:44.387,23,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+196,2026-09-29 18:56:44.431,24,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+197,2026-09-29 18:56:44.481,25,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+198,2026-09-29 18:56:44.527,26,CRITICAL,helmet,0.91,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+199,2026-09-29 18:56:44.567,27,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+200,2026-09-29 18:56:44.623,28,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+201,2026-09-29 18:56:44.670,29,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+202,2026-09-29 18:56:44.713,30,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+203,2026-09-29 18:56:44.769,31,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+204,2026-09-29 18:56:44.958,32,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+205,2026-09-29 18:56:45.001,33,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+206,2026-09-29 18:56:45.042,34,CRITICAL,"helmet, vest",0.903,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+207,2026-09-29 18:56:45.084,35,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+208,2026-09-29 18:56:45.126,36,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+209,2026-09-29 18:56:45.175,37,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+210,2026-09-29 18:56:45.215,38,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+211,2026-09-29 18:56:45.259,39,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+212,2026-09-29 18:56:45.307,40,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+213,2026-09-29 18:56:45.351,41,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+214,2026-09-29 18:56:45.397,42,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+215,2026-09-29 18:56:45.435,43,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+216,2026-09-29 18:56:45.477,44,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+217,2026-09-29 18:56:45.524,45,CRITICAL,"helmet, vest",0.902,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+218,2026-09-29 18:56:45.567,46,CRITICAL,"helmet, vest",0.9,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_18-56-45_567_frame0046.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+219,2026-09-29 18:56:45.624,47,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+220,2026-09-29 18:56:45.670,48,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+221,2026-09-29 18:56:45.721,49,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+222,2026-09-29 19:03:50.514,34,WARNING,vest,0.89,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_19-03-50_514_frame0034.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+223,2026-09-29 19:03:50.555,35,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+224,2026-09-29 19:03:50.592,36,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+225,2026-09-29 19:03:50.626,37,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+226,2026-09-29 19:03:50.658,38,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+227,2026-09-29 19:03:50.691,39,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+228,2026-09-29 19:03:50.728,40,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+229,2026-09-29 19:03:50.770,41,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+230,2026-09-29 19:03:50.824,42,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+231,2026-09-29 19:03:50.877,43,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+232,2026-09-29 19:03:50.935,44,CRITICAL,vest,0.89,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_19-03-50_935_frame0044.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+233,2026-09-29 19:03:50.988,45,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+234,2026-09-29 19:03:51.030,46,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+235,2026-09-29 19:03:51.072,47,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+236,2026-09-29 19:03:51.112,48,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+237,2026-09-29 19:03:51.153,49,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+238,2026-09-29 19:03:51.197,50,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+239,2026-09-29 19:03:51.236,51,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+240,2026-09-29 19:03:51.275,52,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+241,2026-09-29 19:03:51.314,53,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+242,2026-09-29 19:03:51.345,54,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+243,2026-09-29 19:03:51.379,55,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+244,2026-09-29 19:03:51.414,56,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+245,2026-09-29 19:03:51.448,57,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+246,2026-09-29 19:03:51.489,58,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+247,2026-09-29 19:03:51.528,59,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+248,2026-09-29 19:03:54.046,34,WARNING,vest,0.89,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_19-03-54_046_frame0034.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+249,2026-09-29 19:03:54.080,35,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+250,2026-09-29 19:03:54.116,36,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+251,2026-09-29 19:03:54.150,37,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+252,2026-09-29 19:03:54.183,38,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+253,2026-09-29 19:03:54.216,39,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+254,2026-09-29 19:03:54.250,40,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+255,2026-09-29 19:03:54.292,41,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+256,2026-09-29 19:03:54.328,42,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+257,2026-09-29 19:03:54.369,43,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+258,2026-09-29 19:03:54.410,44,CRITICAL,vest,0.89,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_19-03-54_410_frame0044.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+259,2026-09-29 19:03:54.451,45,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+260,2026-09-29 19:03:54.487,46,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+261,2026-09-29 19:03:54.528,47,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+262,2026-09-29 19:03:54.562,48,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+263,2026-09-29 19:03:54.597,49,CRITICAL,vest,0.89,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,PENDING_UPLOAD
+264,2026-09-29 19:06:49.923,34,WARNING,vest,0.89,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_19-06-49_923_frame0034.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+265,2026-09-29 19:06:49.971,35,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+266,2026-09-29 19:06:50.028,36,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+267,2026-09-29 19:06:50.086,37,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+268,2026-09-29 19:06:50.135,38,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+269,2026-09-29 19:06:50.179,39,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+270,2026-09-29 19:06:50.222,40,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+271,2026-09-29 19:06:50.270,41,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,SYNCED
+272,2026-09-29 19:06:50.892,21,CRITICAL,"helmet, vest",0.9,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_CRITICAL_2026-09-29_19-06-50_892_frame0021.jpg,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+273,2026-09-29 19:06:50.936,22,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+274,2026-09-29 19:06:50.973,23,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+275,2026-09-29 19:06:51.010,24,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+276,2026-09-29 19:06:51.052,25,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+277,2026-09-29 19:06:51.115,26,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+278,2026-09-29 19:06:51.167,27,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+279,2026-09-29 19:06:51.216,28,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+280,2026-09-29 19:06:51.266,29,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+281,2026-09-29 19:06:51.312,30,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+282,2026-09-29 19:06:51.359,31,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+283,2026-09-29 19:06:51.396,32,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+284,2026-09-29 19:06:51.434,33,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+285,2026-09-29 19:06:51.475,34,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+286,2026-09-29 19:06:51.515,35,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+287,2026-09-29 19:06:51.557,36,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+288,2026-09-29 19:06:51.591,37,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+289,2026-09-29 19:06:51.626,38,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+290,2026-09-29 19:06:51.663,39,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+291,2026-09-29 19:06:51.701,40,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+292,2026-09-29 19:06:51.761,41,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+293,2026-09-29 19:06:51.831,42,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+294,2026-09-29 19:06:51.878,43,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+295,2026-09-29 19:06:51.936,44,CRITICAL,"helmet, vest",0.9,,HAZARD: Severe PPE non-compliance! Halt heavy machinery and alert site safety manager.,SYNCED
+296,2026-09-29 19:06:53.073,34,WARNING,vest,0.89,C:\Users\pp727\OneDrive\Desktop\PPE\results\snapshots\violation_WARNING_2026-09-29_19-06-53_073_frame0034.jpg,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+297,2026-09-29 19:06:53.108,35,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+298,2026-09-29 19:06:53.149,36,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+299,2026-09-29 19:06:53.192,37,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+300,2026-09-29 19:06:53.229,38,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+301,2026-09-29 19:06:53.267,39,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+302,2026-09-29 19:06:53.304,40,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
+303,2026-09-29 19:06:53.350,41,WARNING,vest,0.89,,CAUTION: Partial PPE violation detected. Issue audio warning & verify compliance.,PENDING_UPLOAD
