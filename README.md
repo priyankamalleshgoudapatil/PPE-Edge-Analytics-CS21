@@ -268,9 +268,9 @@ git commit -m "feat: complete CS21 real-time edge analytics PPE detection projec
 ```
 
 ### 3. Link Remote Repository & Push
-Create a new empty repository on [GitHub](https://github.com/new) (e.g., `PPE-Edge-Analytics`), then run:
+Create a new empty repository on [GitHub](https://github.com/new) named `PPE-Edge-Analytics-CS21` (do **not** check "Add a README" or ".gitignore"), then run:
 ```powershell
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>.git
+git remote add origin https://github.com/priyankamalleshgoudapatil/PPE-Edge-Analytics-CS21.git
 git push -u origin main
 ```
 
