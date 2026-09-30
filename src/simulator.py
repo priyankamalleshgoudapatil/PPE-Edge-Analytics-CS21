@@ -69,10 +69,11 @@ class VideoStreamSimulator:
         print(f"  Stream FPS  : {self.fps:.1f}")
         print(f"  Total Frames: {self.total_frames if self.total_frames > 0 else 'Live Stream'}")
 
-    def stream(self):
+    def stream(self, loop=False):
         """
         Generator function yielding (frame, frame_idx, timestamp).
         Processes ONE FRAME AT A TIME (never loads the whole video into RAM).
+        :param loop: If True, resets video to frame 0 upon reaching the end for continuous CCTV simulation.
         """
         if self.cap is None or not self.cap.isOpened():
             self.open()
@@ -83,8 +84,15 @@ class VideoStreamSimulator:
                 start_time = time.time()
                 ret, frame = self.cap.read()
                 if not ret or frame is None:
-                    # End of stream
-                    break
+                    if loop and self.total_frames > 0:
+                        # Reset video to start for seamless CCTV loop
+                        self.cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
+                        ret, frame = self.cap.read()
+                        if not ret or frame is None:
+                            break
+                    else:
+                        # End of stream
+                        break
 
                 timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + f".{int((time.time() % 1) * 1000):03d}"
                 yield frame, frame_idx, timestamp

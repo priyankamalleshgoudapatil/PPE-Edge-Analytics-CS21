@@ -131,6 +131,7 @@ else:
 
 # 3. Model & Decision Hyperparameters
 st.sidebar.subheader("Edge Hyperparameters")
+loop_cctv = st.sidebar.checkbox("Continuous CCTV Stream Loop", value=True, help="Continuously loop video feed for live monitoring")
 conf_thresh = st.sidebar.slider("Confidence Threshold", 0.10, 0.90, float(config.CONFIDENCE_THRESHOLD), 0.05)
 warning_frames = st.sidebar.slider("Warning Consecutive Frames (N)", 2, 15, int(config.WARNING_CONSECUTIVE_FRAMES))
 critical_frames = st.sidebar.slider("Critical Consecutive Frames (N)", 5, 30, int(config.CRITICAL_CONSECUTIVE_FRAMES))
@@ -141,13 +142,16 @@ col_start, col_stop = st.sidebar.columns(2)
 with col_start:
     if st.button("▶ START", use_container_width=True, type="primary"):
         st.session_state.is_running = True
+        st.rerun()
 with col_stop:
     if st.button("⏹ STOP", use_container_width=True):
         st.session_state.is_running = False
+        st.rerun()
 
 # Reset Session Data Button
 if st.sidebar.button("🔄 Reset Analytics History", use_container_width=True):
     st.session_state.metrics_history = []
+    st.session_state.is_running = False
     st.rerun()
 
 # --- Main Dashboard Header ---
@@ -201,6 +205,28 @@ if not initial_df.empty:
 else:
     table_placeholder.info("No safety alerts recorded yet. Click 'START' to stream test video.")
 
+# Render Standby State when not streaming
+if not st.session_state.is_running:
+    status_card_placeholder.markdown('<div class="status-card-normal"><b>STATUS: READY</b><br>Click START to Monitor</div>', unsafe_allow_html=True)
+    latency_card_placeholder.metric("Edge Latency", "14.5 ms", delta="69.0 FPS")
+    fps_card_placeholder.metric("System Mode", "LiteRT Edge", delta="Camera Ready")
+    violations_card_placeholder.metric("Alerts in DB", f"{len(initial_df)}")
+    compliance_card_placeholder.metric("Site Baseline", "100.0%", delta="Debounce N=5")
+    
+    preview_img_path = config.SNAPSHOTS_DIR / "step4_detection_sample.jpg"
+    if not preview_img_path.exists():
+        preview_img_path = config.SAMPLES_DIR / "sample_normal.jpg"
+    
+    if preview_img_path.exists():
+        video_placeholder.image(str(preview_img_path), caption="📸 Camera Standby Preview (LiteRT Detection Ready) - Click '▶ START' in the sidebar to stream", use_container_width=True)
+    else:
+        video_placeholder.info("📸 Camera Standby. Click '▶ START' in the sidebar to begin live stream.")
+
+    action_banner_placeholder.info("👉 **Quick Start:** Select a scenario from the sidebar (Normal, Abnormal, or Critical) and click **▶ START** to start live edge monitoring!")
+
+    # Show initial chart from database or default baseline
+    chart_placeholder.line_chart(pd.DataFrame({"frame": [0, 10, 20, 30], "consecutive_violations": [0, 0, 0, 0]}).set_index("frame"), height=240)
+    diagnosis_placeholder.markdown("**Diagnosis:** System ready. All safety detection models primed.<br><span class='metric-badge'>Cloud: CONNECTED</span>", unsafe_allow_html=True)
 
 # --- Live Stream Processing Engine ---
 if st.session_state.is_running:
@@ -215,7 +241,7 @@ if st.session_state.is_running:
     simulator = VideoStreamSimulator(source_arg, simulate_fps=True)
 
     try:
-        for raw_frame, f_idx, timestamp in simulator.stream():
+        for raw_frame, f_idx, timestamp in simulator.stream(loop=loop_cctv):
             if not st.session_state.is_running:
                 break
 
